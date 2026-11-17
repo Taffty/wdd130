@@ -1,0 +1,31 @@
+body {
+    background-color: gray;
+}
+.bordered {
+    background-color: aliceblue;
+    border: solid 2px hsl(0, 0%, 0%);
+    margin:20px;
+    padding: 20px;
+    width: 500px;
+    box-sizing: border-box;
+
+}
+.red {
+    h2{
+        color: gainsboro;
+    }
+    padding-top: 50px;
+    color: red;
+}
+.hoverer{
+    display:inline
+}
+.hoverer:hover{
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+span {
+    background-color: black;
+    display: inline;
+}
